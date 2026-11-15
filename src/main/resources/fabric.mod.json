@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autotnt",
+  "version": "${version}",
+  "name": "AutoTNT",
+  "description": "Pose une ligne de TNT devant toi quand tu recules.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["fr.autotnt.AutoTntClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  }
+}

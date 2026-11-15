@@ -1,0 +1,4 @@
+1. Crée un dépôt GitHub vide, envoie-y TOUT le contenu de ce dossier (y compris .github/).
+2. Onglet Actions > "Build" (se lance au push, ou "Run workflow").
+3. Quand c'est vert : télécharge l'artefact "autotnt-jar" -> autotnt-1.0.0.jar -> dans .minecraft/mods.
+4. Si c'est rouge : copie-moi les erreurs de compilation, je corrige.
